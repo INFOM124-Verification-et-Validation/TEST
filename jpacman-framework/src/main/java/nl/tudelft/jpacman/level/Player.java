@@ -102,4 +102,14 @@ public class Player extends Unit {
     public void addPoints(int points) {
         scoreManager.addPoints(points);
     }
+
+    @Override
+    public String toString() {
+        return "Player{" +
+            "scoreManager=" + scoreManager +
+            ", sprites=" + sprites +
+            ", deathSprite=" + deathSprite +
+            ", alive=" + alive +
+            '}';
+    }
 }
