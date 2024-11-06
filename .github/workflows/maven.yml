@@ -1,14 +1,15 @@
-name: CI for jpacman-framework tests
+name: CI for jpacman-framework
 
 on:
+  push:
+    branches:
+      - main
   pull_request:
-    branches: [ "main" ]
+    types: [opened, synchronize, reopened]
 
 jobs:
   test:
-
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v4
     - name: Set up JDK 17
