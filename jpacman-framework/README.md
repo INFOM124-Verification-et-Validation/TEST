@@ -1,5 +1,7 @@
 # JPacman-framework
 
+TEST
+
 ## Getting started with this project
 
 1. Fork this repository into the organization _INFOM124-Verification-et-Validation_ (be careful not to fork it on your _own_ profile!).
